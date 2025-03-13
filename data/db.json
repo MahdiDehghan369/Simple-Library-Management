@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "9999eeed-b839-4220-99e1-36248c199d07",
+      "name": "Suren",
+      "username": "Jamily",
+      "email": "suren@gmail.com",
+      "crime": 40000,
+      "role": "ADMIN"
+    },
+    {
+      "id": "5abb87b3-2c51-4635-9913-1d11b4fc4f1d",
+      "name": "abas",
+      "username": "gholi",
+      "email": "abas@gmail.com",
+      "crime": 0,
+      "role": "ADMIN"
+    },
+    {
+      "id": "dfa0e5e0-c4ee-40d2-8189-4f2a0dd79ce2",
+      "name": "Mahla",
+      "username": "MahlaDehghan",
+      "email": "ksjdkjsjdksjd",
+      "crime": 0,
+      "role": "USER"
+    }
+  ],
+  "books": [
+    {
+      "id": "6d190e31-52b5-4e2a-972c-7d682d118e84",
+      "title": "Olom",
+      "author": "Arab",
+      "price": 200000,
+      "free": 1
+    },
+    {
+      "id": "78aba525-a046-4d5c-9954-bd217c1d7536",
+      "title": "farsi",
+      "author": "dehghan",
+      "price": 20000,
+      "free": 0
+    }
+  ],
+  "rents": [
+    {
+      "id": "a91773a1-0c43-4f2d-a8a5-770ba76b809b",
+      "userID": "gholi",
+      "bookID": "6d190e31-52b5-4e2a-972c-7d682d118e84"
+    },
+    {
+      "id": "9cc3c716-d35d-46ab-b45a-a575d6885272",
+      "userID": "5abb87b3-2c51-4635-9913-1d11b4fc4f1d",
+      "bookID": "78aba525-a046-4d5c-9954-bd217c1d7536"
+    }
+  ]
+}
