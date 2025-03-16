@@ -7,7 +7,7 @@ const { rejects } = require("assert");
 
 const find = () => {
   return new Promise((resolve, reject) => {
-    resolve(db.users);
+    resolve(dataBase.users);
   });
 };
 
